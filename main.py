@@ -6,8 +6,6 @@ import torch.optim as optim
 import torchvision
 from torchvision import transforms, datasets
 
-import matplotlib.pyplot as plt
-
 def get_dataset(train=False):
     return datasets.MNIST(
         '',
