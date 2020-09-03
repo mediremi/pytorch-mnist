@@ -1,1 +1,3 @@
 MNIST
+model/**
+!model/.gitkeep
